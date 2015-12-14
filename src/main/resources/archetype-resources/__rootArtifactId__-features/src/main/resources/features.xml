@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<features>
+	<feature name="${artifactId}" version="${symbol_dollar}{version}">
+
+		<!-- Example feature installation -->
+		<feature version="2.7.5">cxf</feature>
+
+		<!-- Example bundle installation -->
+		<bundle>mvn:org.apache.commons/commons-lang3/3.2</bundle>
+
+	</feature>
+</features>

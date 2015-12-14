@@ -8,6 +8,39 @@
 	<version>0.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 	<name>Anton Johansson :: OSGi Archetype</name>
+	<url>https://github.com/anton-johansson/osgi-archetype</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/anton-johansson/osgi-archetype/issues</url>
+	</issueManagement>
+
+	<scm>
+		<connection>scm:git:git@github.com:anton-johansson/osgi-archetype.git</connection>
+		<url>scm:git:git@github.com:anton-johansson/osgi-archetype.git</url>
+		<developerConnection>scm:git:git@github.com:anton-johansson/osgi-archetype.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>anton-johansson</id>
+			<email>antoon.johansson@gmail.com</email>
+			<name>Anton Johansson</name>
+			<url>https://github.com/anton-johansson</url>
+		</developer>
+	</developers>
 
 	<build>
 		<extensions>

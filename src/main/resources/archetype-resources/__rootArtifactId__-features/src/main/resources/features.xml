@@ -1,14 +1,19 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-<features>
-	<feature name="${artifactId}" version="${symbol_dollar}{version}">
+<features name="${rootArtifactId}-${symbol_dollar}{version}"
+	xmlns="http://karaf.apache.org/xmlns/features/v1.3.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.3.0 http://karaf.apache.org/xmlns/features/v1.3.0">
 
-		<!-- Example feature installation -->
-		<feature version="2.7.5">cxf</feature>
+	<feature name="${rootArtifactId}" version="${symbol_dollar}{version}">
 
 		<!-- Example bundle installation -->
 		<bundle>mvn:org.apache.commons/commons-lang3/3.2</bundle>
 
+		<!-- Intenral bundles -->
+		<bundle>mvn:${groupId}/${artifactId}-sample/${symbol_dollar}{version}</bundle>
+
 	</feature>
+
 </features>

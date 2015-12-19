@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.karaf.main.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="clean"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Karaf"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx1112M&#13;&#10;-Xms512M&#13;&#10;-Djava.endorsed.dirs=&quot;${workspace_loc:Karaf}\lib\endorsed&quot;&#13;&#10;-Djline.terminal=jline.UnsupportedTerminal&#13;&#10;-Dkaraf.startLocalConsole=true&#13;&#10;-Dkaraf.home=&quot;${workspace_loc:Karaf}&quot; &#13;&#10;-Dkaraf.base=&quot;${workspace_loc:Karaf}&quot;&#13;&#10;-Dkaraf.data=&quot;${workspace_loc:Karaf}/data&quot;&#13;&#10;-Dkaraf.etc=&quot;${workspace_loc:Karaf}/etc&quot;&#13;&#10;-Dkaraf.instances=&quot;${workspace_loc:Karaf}/instances&quot;"/>
+</launchConfiguration>

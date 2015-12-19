@@ -21,6 +21,7 @@
 
 	<modules>
 		<module>${artifactId}-features</module>
+		<module>${artifactId}-sample</module>
 	</modules>
 
 	<build>

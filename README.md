@@ -1,4 +1,4 @@
-# osgi-archetype [![Build Status](https://travis-ci.org/anton-johansson/osgi-archetype.svg?branch=master)](https://travis-ci.org/anton-johansson/osgi-archetype) ![Dependencies](https://img.shields.io/david/anton-johansson/osgi-archetype.svg)
+# osgi-archetype [![Build Status](https://travis-ci.org/anton-johansson/osgi-archetype.svg?branch=master)](https://travis-ci.org/anton-johansson/osgi-archetype)
 > Maven archetype for generating OSGi-projects.
 
 ## Getting started with Eclipse & Karaf

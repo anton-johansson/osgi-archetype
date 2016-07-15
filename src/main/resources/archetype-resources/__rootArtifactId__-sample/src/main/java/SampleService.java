@@ -5,20 +5,18 @@ package ${package};
 
 /**
  * Sample service.
- *
- * @author Anton Johansson
  */
 public class SampleService
 {
-	private String greeting;
+    private String greeting;
 
-	public void setGreeting(String greeting)
-	{
-		this.greeting = greeting;
-	}
+    public void setGreeting(String greeting)
+    {
+        this.greeting = greeting;
+    }
 
-	public void greet()
-	{
-		System.out.println("Greeting from service: " + greeting);
-	}
+    public void greet()
+    {
+        System.out.println("Greeting from service: " + greeting);
+    }
 }

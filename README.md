@@ -6,4 +6,4 @@ Maven archetype for generating OSGi-projects.
 
 
 ## Getting started with Eclipse & Karaf
-  1. ```mvn archetype:generate -DarchetypeGroupid=com.anton-johansson -DarchetypeArtifactId=osgi-archetype```
+  1. ```mvn archetype:generate -DarchetypeGroupId=com.anton-johansson -DarchetypeArtifactId=osgi-archetype```
